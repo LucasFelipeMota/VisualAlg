@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "C/F/C"
 
 Var
    temperatura : real
@@ -15,13 +15,13 @@ Inicio
 
    se escala = (( escala = "C") ou ( escala = "c")) entao
       temperatura <- (temperatura * 18)/10 + 32
-      escreval("Sua temperatura em Fahrenheit é:  ",temperatura:2:2)
+      escreval("Sua temperatura em Fahrenheit Ã©:  ",temperatura:2:2)
 
    senao
       se escala = (( escala = "f") ou ( escala = "F")) entao
 
          temperatura <- ((temperatura-32)*10)/18
-         escreval("Sua temperatura em Celcius é:  ",temperatura:2:2)
+         escreval("Sua temperatura em Celcius Ã©:  ",temperatura:2:2)
       fimse
    fimse
 
